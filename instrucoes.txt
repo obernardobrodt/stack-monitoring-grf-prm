@@ -1,0 +1,4 @@
+#Fazendo o primeiro teste com DOCKER LOCAL
+docker run --name prometheus --rm -d -p 9090:9090 -v C:\Users\berna\OneDrive\Documentos\Stack-Grafana\stack-monitoring-grf-prm\prometheus-docker\prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+
+Vamos instrumentar uma app em NodeJS
