@@ -14,7 +14,8 @@ O objetivo principal é fornecer uma solução de monitoramento robusta para apl
 
 * **Prometheus:** Coleta métricas da aplicação NodeJS.
 * **Grafana:** Visualiza as métricas coletadas em dashboards personalizáveis.
-* **kubernetes:** 
+* **kubernetes:**
+* **NodeJs:**  
 
 ## Pré-requisitos
 
