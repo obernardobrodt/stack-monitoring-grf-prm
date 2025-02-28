@@ -22,8 +22,35 @@ O objetivo principal é fornecer uma solução de monitoramento robusta para apl
 * Docker e Docker Compose instalados.
 * Aplicação NodeJS em execução.
 * Cluster kubernetes Local Configurado
+* Ter o node js configurado com suas bibliotecas iniciais e afins.
+
 
 ## Como usar
+
+# Container docker com prometheus
+
+# Comando para inicar a app na porta, buscando um arquivo de configuração local
+ - ' docker run --name prometheus --rm -d -p 9090:9090 -v C:\Users\berna\OneDrive\Documentos\Stack-Grafana\stack-monitoring-grf-prm\prometheus-docker\prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus'
+
+# APP
+###  COMMANDS##
+ 
+ # Inicia a app
+ - ' npm init '  
+ # Instala uma lib
+ - ' npm install --save express '
+ # Após a criação do code no index.js comando para iniciar na porta correta o node
+ - ' node .\index.js '
+------
+
+## App instrumentando prometheus
+-   Visitar a doc oficial para verificar as instruções: https://github.com/siimon/prom-client
+-   após encontrar a lib utilizar a lib
+- ' npm install --save prom-client '
+-   ' depois de feito isto é necessário inclui-la no code'
+-   ' var prom = require('prom-client')'
+-   após isso rodar a app novamente 
+-    
 
 1.  Clone este repositório.
 2.  
