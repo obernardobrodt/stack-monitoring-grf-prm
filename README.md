@@ -62,3 +62,16 @@ O objetivo principal é fornecer uma solução de monitoramento robusta para apl
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+
+
+## View
+ - /Métric funcional
+![alt text](image.png)
+
+- Grafico funcional prometheus
+![alt text](image-1.png)
+- Metrificando uma média de nossa implantação
+![alt text](image-2.png)
+ # Query teste utilizada
+ "  increase (lutherK_request_total{statusCode="200"}[1m]) "
