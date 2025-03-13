@@ -75,3 +75,10 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 ![alt text](image-2.png)
  # Query teste utilizada
  "  increase (lutherK_request_total{statusCode="200"}[1m]) "
+
+ ## Monitorando Server local
+ ' avg by (instance) (irate(process_cpu_seconds_total{job="ServerHost"}[1m])) '
+ ![alt text](image-3.png)
+
+
+ ### Consultas PromQL
