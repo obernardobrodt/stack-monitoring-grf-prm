@@ -43,7 +43,7 @@ scrape_configs:
 - job_name: lutherKing
   static_configs:
   - targets:
-    - 192.168.1.46:3000 #ipdamaquina e ou da aplicacao #DockerIP da máquina Windows 127.0.0.1
+    - 192.168.1.46:3030 #ipdamaquina e ou da aplicacao #DockerIP da máquina Windows 127.0.0.1
 
 #Monitorando server ( Local Server )
 - job_name: ServerHost
