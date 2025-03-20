@@ -103,6 +103,16 @@ Para executar o código, siga estas etapas:
     hello_world()
     ```
 
+# Endereços testes locais
+  - App
+ `http://localhost:3030/` 
+
+ - Prometheus
+` http://localhost:9090/query` 
+ 
+ - Grafana 
+`http://localhost:3010/login` 
+
 ## Contribuição
 
 Se você deseja contribuir para este projeto, siga estas etapas:
